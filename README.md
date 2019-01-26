@@ -4,8 +4,8 @@ A responsive page about dogs and their awesomeness.  Has minor JS functionality 
 This project challenges students like myself to create a page based on a template provided. Also gives the oppurtunity to practice git and creating readme files.
 
 **Responsive Layout Images** 
-[Mobile](readme-images/mobile.jpg)  [Tablet](readme-images/tablet.jpg)
-[Desktop](readme-images/desktop.jpg)
+![Mobile](readme-images/mobile.jpg)  ![Tablet](readme-images/tablet.jpg)
+![Desktop](readme-images/desktop.jpg)
 
 **Tools used for building and testing:**
 - HTML
