@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.nav-bar ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #75E2E6;
+  border-bottom: .2em solid #048EAA;
+}
+.nav-bar a img {
+  width: 3em;
+  padding: .3em .2em .2em 1.5em;
+}
+.nav-bar ul li {
+  list-style-type: none;
+  float: right;
+  margin: .8em;
+  padding: 5px;
+  font-weight: bold;
+}
+.nav-bar ul a {
+  color: black;
+}
+.dog-naming-container {
+  width: 100%;
+  background-image: linear-gradient( rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) ), url('images/park.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+.main-title {
+  margin: auto;
+  padding-bottom: .5em;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 2.5em;
+  font-weight: lighter;
+  color: #FFFFFF;
+}
+#name-of-dog {
+  font-size: 1em;
+  font-weight: bold;
+}
+.dog-to-be-named {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: .3em solid #048EAA;
+  width: 15%;
+}
+form label span {
+  display: block;
+  color: white;
+  font-size: 1.2em;
+  font-weight: lighter;
+  margin: 3% auto 1% 30%;
+}
+form label input {
+  display: block;
+  margin: auto;
+  padding: 0;
+  font-size: 2em;
+  text-align: center;
+  width: 40%;
+}
+form button {
+  display: block;
+  margin: 1em auto auto auto;
+  width: 40%;
+  height: 2.5em;
+  font-size: 1.2em;
+  background-color: #75E2E6;
+}
+.about-dogs-container {
+  min-height: 500px;
+  clear:both;
+}
+.about-dogs-container div {
+  min-height: 33em;
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+.about-dogs-container h2 {
+  text-align: center;
+  margin-top: 1em;
+}
+.about-dogs-container div img {
+  display: block;
+  margin: auto auto 1em auto;
+  border-radius: 50%;
+  border: .3em solid #048EAA;
+  width: 45%;
+}
+.about-dogs-container div p {
+  padding: 25px;
+  min-height: 8em;
+  font-weight: bold;
+}
+.about-dogs-container div a {
+  display:block;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 84%;
+  margin: 0% 8% 0% 8%;
+  padding: 1em 0em 1em 0em;
+  background-color: #048EAA;
+}
+.about-dogs-container div a span {
+  color: white;
+  width: 100%;
+}
+.about-dogs-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer {
+  background-color: #048EAA;
+  text-align: center;
+}
+footer p {
+  padding-top: 2em;
+  font-size: .9em;
+  display: block;
+  color: #FFFFFF;
+  margin: 1em;
+}
+footer a img {
+  width: 2.5em;
+  margin: .5em;
+  padding-bottom: 2em;
+}
+/*Media query for medium sized devices*/
+@media (min-width: 601px) and (max-width: 768px) {
+  .about-dogs-container {
+    position: relative;
+  }
+  .about-dogs-container div {
+    width: 50%;
+    float: left;
+  }
+  .about-dogs-container div:nth-child(3) {
+    display: block;
+    margin: auto;
+    bottom: -2em;
+    float: none;
+  }
+  .about-dogs-container div p:nth-child(3) {
+  min-height: 12em;
+  }
+  .about-dogs-container div img {
+    width: 50%;
+  }
+  .nav-bar ul li {
+    float: right;
+    text-align: center;
+    margin-right: 2.5em;
+    padding: .5em;
+  }
+  .dog-to-be-named {
+    width: 25%;
+  }
+}
+/*Media query for mobile devices*/
+@media (max-width: 600px) {
+  .about-dogs-container div {
+    width: 100%;
+    min-height: 20em;
+  }
+  .about-dogs-container div img {
+   width: 40%;
+  }
+  .nav-bar a img {
+    padding: 0;
+    margin-left: 45%;
+  }
+  .nav-bar ul li {
+    float: none;
+    text-align: center;
+    margin: 0;
+    padding: .5em;
+    border-top: solid 1px #048EAA;
+  }
+  .dog-to-be-named {
+    width: 40%;
+  }
+  form label span {
+  margin: 3% auto 1% 15%;
+  }
+  form label input {
+    width: 70%;
+  }
+  form button {
+    width: 70%;
+  }
+}
+
+
+
+
+
