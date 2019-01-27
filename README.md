@@ -8,17 +8,17 @@ This project challenges students like myself to create a page based on a compreh
 
 ![Comp](readme-images/comp-layout.jpg)
 
-**My Comp & Responsive Layouts** 
+**My Page & Responsive Layouts** 
 
-![Mobile](readme-images/mobile.jpg)  
-![Tablet](readme-images/tablet.jpg)
 ![Desktop](readme-images/desktop.jpg)
+![Tablet](readme-images/tablet.jpg)
+![Mobile](readme-images/mobile.jpg)  
 
-**Tools used for building and testing:**
-- HTML
-- CSS
-- Javascript
-- Browsersync (allowed faster browser testing)
+### Tools used for building and testing:
+- **HTML**
+- **CSS**
+- **Javascript**
+- **Browsersync (allowed faster browser testing)**
 
 **How to name the dog**
 1. Click the input box and think of what the dog should be named 
